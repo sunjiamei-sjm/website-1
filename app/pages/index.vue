@@ -2,7 +2,7 @@
  * @Version: 1.0
  * @Author: pluto
  * @Date: 2026-01-30 16:20:17
- * @LastEditTime: 2026-01-31 22:32:53
+ * @LastEditTime: 2026-02-01 18:16:58
  * @Description: 
 -->
 <template>
@@ -281,13 +281,15 @@
         </div>
       </div>
     </div>
+    <Footer></Footer>
   </div>
 </template>
 <script setup lang="ts">
 import { ref, onMounted, watch } from "vue";
 import { useRouter } from "vue-router";
 // 导入自定义轮播组件（Nuxt3支持自动导入，也可手动导入）
-import SwiperDemo from "../components/SwiperDemo .vue";
+import SwiperDemo from "../components/SwiperDemo.vue";
+import Footer from "../components/Footer.vue";
 import type { TimelineProps } from "element-plus";
 const dataList2 = [1, 2, 3, 4, 5];
 const currentPartyBuildingType = ref("1");
