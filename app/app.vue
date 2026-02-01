@@ -51,7 +51,7 @@ const goHome = () => {
    .header-left {
       color: #16A34A;
       font-size: 16px;
-      font-family: sans-serif;
+      // font-family: sans-serif;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -103,7 +103,7 @@ const goHome = () => {
       .header-left {
          color: #16A34A;
          font-size: 16px;
-         font-family: sans-serif;
+        //  font-family: sans-serif;
          cursor: pointer;
          display: flex;
          align-items: center;
