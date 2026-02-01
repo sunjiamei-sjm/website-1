@@ -2,7 +2,7 @@
  * @Version: 1.0
  * @Author: pluto
  * @Date: 2026-01-30 16:20:17
- * @LastEditTime: 2026-02-01 18:16:58
+ * @LastEditTime: 2026-02-01 20:28:54
  * @Description: 
 -->
 <template>
@@ -282,6 +282,7 @@
       </div>
     </div>
     <Footer></Footer>
+
   </div>
 </template>
 <script setup lang="ts">
